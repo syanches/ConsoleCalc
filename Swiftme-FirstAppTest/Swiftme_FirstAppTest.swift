@@ -12,7 +12,6 @@ import XCTest
 class SwiftmeFirstAppTest: XCTestCase {
     
     func testFunc() {
-     //   let result = math(String(2),String(3),"*")!
         XCTAssertEqual(6.0, math("2", "4", "+"))
         XCTAssertEqual(6.0, math("2", "3", "*"))
         XCTAssertEqual(6.0, math("12", "2", "/"))
