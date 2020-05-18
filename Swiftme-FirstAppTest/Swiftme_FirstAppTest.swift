@@ -9,7 +9,7 @@
 import XCTest
 @testable import Swiftme_FirstApp
 
-class Swiftme_FirstAppTest: XCTestCase {
+class SwiftmeFirstAppTest: XCTestCase {
     
     func testFunc() {
      //   let result = math(String(2),String(3),"*")!

@@ -6,30 +6,6 @@
 //  Copyright © 2020 Артем Мартиросян. All rights reserved.
 //
 
-
-// 1 вариант
-
-//print("Введите значение a")
-//var a = readLine()
-//print("Введите значение b")
-//var b = readLine()
-//
-//
-//var sum = { (a: String?, b: String?) -> Int? in
-//    guard let a=Int(a!),let b=Int(b!) else { return nil }
-//    return a+b
-//}
-//
-//
-//let result = sum(a, b)
-//if let result = result {
-//    print("Результат сложения - \(result)")
-//} else {
-//    print("Введены некорректные данные")
-//}
-
-// 2 вариант
-
 var num1: String?
 var num2: String?
 var sign: String?

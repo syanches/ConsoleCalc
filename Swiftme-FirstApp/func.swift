@@ -8,11 +8,6 @@
 
 import Foundation
 
-//func sum(_ a: String?, _ b:String?) -> Int {
-//    return Int(a!)! + Int(b!)!
-//}
-
-
 func math(_ a: String?, _ b: String?, _ sign: String?) -> Double? {
     switch sign! {
     case "+":
