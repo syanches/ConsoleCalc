@@ -1,5 +1,5 @@
 os: osx
 osx_image: xcode11.4
 language: swift
-script: xcodebuild clean build test -workspace Swiftme-FirstApp.xcodeproj/project.xcworkspace -scheme "Swiftme-FirstApp" -destination "platform=MacOS"
+script: xcodebuild clean build test -workspace Swiftme-FirstApp.xcodeproj/project.xcworkspace -scheme "Swiftme-FirstApp" -destination "platform=MacOS" CODE_SIGNING_REQUIRED=NO
 
