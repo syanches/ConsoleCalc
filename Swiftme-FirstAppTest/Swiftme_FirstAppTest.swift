@@ -16,6 +16,7 @@ class SwiftmeFirstAppTest: XCTestCase {
         XCTAssertEqual(6.0, math("2", "3", "*"))
         XCTAssertEqual(6.0, math("12", "2", "/"))
         XCTAssertEqual(6.0, math("8", "2", "-"))
+        XCTAssertEqual(6.0, math("6", "1", "^"))
+        XCTAssertEqual(nil, math("12", "2", "&"))
     }
-
 }

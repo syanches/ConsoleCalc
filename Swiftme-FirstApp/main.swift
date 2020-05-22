@@ -10,6 +10,7 @@ var num1: String?
 var num2: String?
 var sign: String?
 
+
 repeat {
     print("Введите первое значение:")
     num1 = readLine()
@@ -24,7 +25,7 @@ repeat {
 repeat {
     print("Выберите знак: +, -, *, /, ^")
     sign = readLine()
-} while sign! != "+" && sign! != "*" && sign! != "-" && sign! != "/" && sign! != "^" &&  sign! != "sqrt"
+} while sign! != "+" && sign! != "*" && sign! != "-" && sign! != "/" && sign! != "^"
 
 
 let result = math(num1, num2, sign)!
